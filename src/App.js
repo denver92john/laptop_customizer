@@ -1,6 +1,23 @@
 import React, { Component } from 'react';
 import './App.css';
+import Header from './header/header';
+import Main from './main/main';
 
+class App extends React.Component {
+  render() {
+    return (
+      <div className="App">
+        <Header />
+        <Main features={this.props.features}/>
+      </div>
+    );
+  }
+}
+
+export default App;
+
+
+/*
 class App extends Component {
   constructor(props){
     super(props);
@@ -45,8 +62,12 @@ class App extends Component {
             </div>
         </div>)
 
+
+
     const total = Object.keys(this.state.selected)
           .reduce((acc, curr) => acc + this.state.selected[curr].cost, 0);    
+
+
 
 
     const features = Object.keys(this.props.features)
@@ -102,4 +123,6 @@ class App extends Component {
   }
 }
 
+
 export default App;  
+*/
