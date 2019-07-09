@@ -26,6 +26,8 @@ class Main extends React.Component {
                 }
             }
         }
+
+        this.updateFeature = this.updateFeature.bind(this);
     }
 
     updateFeature(feature, newValue) {

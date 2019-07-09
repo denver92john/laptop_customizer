@@ -1,4 +1,5 @@
 import React from 'react';
+import './feature__item.css';
 
 class Feature__Item extends React.Component {
     render() {

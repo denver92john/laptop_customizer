@@ -27,10 +27,3 @@ class Main__Form extends React.Component {
 }
 
 export default Main__Form;
-
-/*
-                    processor={this.props.processor}
-                    os={this.props.os}
-                    videoCard={this.props.videoCard}
-                    display={this.props.display}
-*/
