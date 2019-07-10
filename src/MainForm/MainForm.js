@@ -1,8 +1,8 @@
 import React from 'react';
-import './main__form.css';
-import Feature from '../feature/feature';
+import './MainForm.css';
+import Feature from '../Feature/feature';
 
-class Main__Form extends React.Component {
+class MainForm extends React.Component {
     render() {
         const features = Object.keys(this.props.features)
             .map(key => {
@@ -26,4 +26,4 @@ class Main__Form extends React.Component {
     }
 }
 
-export default Main__Form;
+export default MainForm;

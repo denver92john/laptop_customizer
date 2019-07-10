@@ -1,7 +1,7 @@
 import React from 'react';
-import './main__summary.css';
+import './MainSummary.css';
 
-class Main__Summary extends React.Component {
+class MainSummary extends React.Component {
     render() {
         const summaryOption = Object.keys(this.props.selected).map(key => {
             return (
@@ -33,4 +33,4 @@ class Main__Summary extends React.Component {
     }
 }
 
-export default Main__Summary;
+export default MainSummary;

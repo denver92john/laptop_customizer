@@ -1,7 +1,7 @@
 import React from 'react';
 import './main.css';
-import Main__Form from '../main__form/main__form';
-import Main__Summary from '../main__summary/main__summary';
+import MainForm from '../MainForm/MainForm';
+import MainSummary from '../MainSummary/MainSummary';
 
 class Main extends React.Component {
     constructor(props){
@@ -43,12 +43,12 @@ class Main extends React.Component {
     render() {
         return (
             <main>
-                <Main__Form 
+                <MainForm 
                     features={this.props.features}
                     selected={this.state.selected}
                     handleFeatureUpdate={this.updateFeature}
                 />
-                <Main__Summary 
+                <MainSummary 
                     selected={this.state.selected}
                 />
             </main>

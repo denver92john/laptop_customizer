@@ -1,7 +1,7 @@
 import React from 'react';
-import './feature__item.css';
+import './FeatureItem.css';
 
-class Feature__Item extends React.Component {
+class FeatureItem extends React.Component {
     render() {
         return (
             <li className="feature__item">
@@ -17,4 +17,4 @@ class Feature__Item extends React.Component {
     }
 }
 
-export default Feature__Item;
+export default FeatureItem;

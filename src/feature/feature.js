@@ -1,6 +1,6 @@
 import React from 'react';
 import './feature.css';
-import Feature__List from '../feature__list/feature__list';
+import FeatureList from '../FeatureList/FeatureList';
 
 class Feature extends React.Component {
     render() {
@@ -9,7 +9,7 @@ class Feature extends React.Component {
             
             <div className="feature" key={this.props.name}>
                 <div className="feature__name">{this.props.name}</div>
-                <Feature__List 
+                <FeatureList 
                     name={this.props.name}
                     options={this.props.options}
                     selected={this.props.selected}
